@@ -1,0 +1,127 @@
+{
+  "name": "technical-research-dev",
+  "version": "0.2.0",
+  "description": "Ten diverse technical-research tasks for a single-pass paired comparison of Fixed and Adaptive policies. This is a development benchmark, not a factual-accuracy benchmark.",
+  "tasks": [
+    {
+      "id": "framework-selection-001",
+      "question": "对比 LangGraph、AutoGen 和 CrewAI 的架构设计、适用场景与主要限制，并为中型企业内部 Agent 平台给出选型建议。",
+      "category": "framework-comparison",
+      "budget": {
+        "max_tokens": 60000,
+        "max_searches": 8,
+        "max_page_fetches": 18,
+        "max_elapsed_seconds": 600
+      },
+      "tags": ["agents", "architecture", "selection"]
+    },
+    {
+      "id": "messaging-selection-001",
+      "question": "对比 Apache Kafka 与 RabbitMQ 的消息模型、可靠性、运维复杂度和典型场景，并为中等规模事件驱动系统给出选型建议。",
+      "category": "infrastructure-selection",
+      "budget": {
+        "max_tokens": 60000,
+        "max_searches": 8,
+        "max_page_fetches": 18,
+        "max_elapsed_seconds": 600
+      },
+      "tags": ["messaging", "distributed-systems", "selection"]
+    },
+    {
+      "id": "api-design-001",
+      "question": "比较 REST 与 GraphQL 在接口演进、缓存、性能、权限控制和前端协作方面的主要权衡，并说明各自更适合的项目类型。",
+      "category": "architecture-comparison",
+      "budget": {
+        "max_tokens": 60000,
+        "max_searches": 8,
+        "max_page_fetches": 18,
+        "max_elapsed_seconds": 600
+      },
+      "tags": ["api", "architecture", "trade-offs"]
+    },
+    {
+      "id": "database-selection-001",
+      "question": "对比 PostgreSQL 与 MongoDB 的数据模型、一致性、查询能力、扩展方式和运维成本，并为快速增长的 SaaS 产品给出选型原则。",
+      "category": "database-selection",
+      "budget": {
+        "max_tokens": 60000,
+        "max_searches": 8,
+        "max_page_fetches": 18,
+        "max_elapsed_seconds": 600
+      },
+      "tags": ["database", "saas", "selection"]
+    },
+    {
+      "id": "autoscaling-selection-001",
+      "question": "比较 Kubernetes HPA 与 KEDA 的触发机制、适用负载、依赖、限制和运维复杂度，并给出事件驱动工作负载的选择建议。",
+      "category": "cloud-native-selection",
+      "budget": {
+        "max_tokens": 60000,
+        "max_searches": 8,
+        "max_page_fetches": 18,
+        "max_elapsed_seconds": 600
+      },
+      "tags": ["kubernetes", "autoscaling", "selection"]
+    },
+    {
+      "id": "vector-database-selection-001",
+      "question": "对比 pgvector 与 Milvus 的架构、索引能力、扩展方式、运维复杂度和典型规模，并为中型企业 RAG 平台给出选型建议。",
+      "category": "ai-infrastructure-selection",
+      "budget": {
+        "max_tokens": 60000,
+        "max_searches": 8,
+        "max_page_fetches": 18,
+        "max_elapsed_seconds": 600
+      },
+      "tags": ["rag", "vector-database", "selection"]
+    },
+    {
+      "id": "realtime-transport-001",
+      "question": "比较 Server-Sent Events 与 WebSocket 在通信模型、断线恢复、代理兼容性、资源消耗和工程复杂度方面的权衡，并为 Agent 实时进度推送给出选择建议。",
+      "category": "protocol-selection",
+      "budget": {
+        "max_tokens": 60000,
+        "max_searches": 8,
+        "max_page_fetches": 18,
+        "max_elapsed_seconds": 600
+      },
+      "tags": ["sse", "websocket", "realtime"]
+    },
+    {
+      "id": "python-task-queue-001",
+      "question": "对比 Celery 与 RQ 的任务模型、可靠性、调度能力、可观测性和运维成本，并为中等规模 Python 后台任务系统给出选型建议。",
+      "category": "backend-infrastructure-selection",
+      "budget": {
+        "max_tokens": 60000,
+        "max_searches": 8,
+        "max_page_fetches": 18,
+        "max_elapsed_seconds": 600
+      },
+      "tags": ["python", "task-queue", "selection"]
+    },
+    {
+      "id": "rag-chunking-001",
+      "question": "比较固定长度、递归文本和语义分块三类 RAG 文档切分策略在上下文完整性、检索召回、计算成本和工程复杂度上的差异，并给出落地建议。",
+      "category": "rag-design-comparison",
+      "budget": {
+        "max_tokens": 60000,
+        "max_searches": 8,
+        "max_page_fetches": 18,
+        "max_elapsed_seconds": 600
+      },
+      "tags": ["rag", "chunking", "retrieval"]
+    },
+    {
+      "id": "python-concurrency-001",
+      "question": "比较 Python asyncio、线程池与进程池在 I/O 密集型和 CPU 密集型任务中的执行模型、性能限制、错误处理与适用场景，并给出工程选型原则。",
+      "category": "runtime-comparison",
+      "budget": {
+        "max_tokens": 60000,
+        "max_searches": 8,
+        "max_page_fetches": 18,
+        "max_elapsed_seconds": 600
+      },
+      "tags": ["python", "concurrency", "performance"]
+    }
+  ]
+}

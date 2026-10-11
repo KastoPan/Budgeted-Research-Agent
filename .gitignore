@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.tox/
+.nox/
+.venv/
+venv/
+__pypackages__/
+build/
+htmlcov/
+.coverage.*
+coverage.xml
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+.envrc
+.direnv/
+*.pem
+*.key
+
+# IDE and operating system
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.log
+
+# Generated outputs
+artifacts/
+reports/
+runs/
+evaluations/
+data/
+coverage/
+.coverage
+*.db
+*.sqlite
+*.sqlite3
+
+# Frontend
+node_modules/
+dist/
+.vite/
+*.tsbuildinfo
+.eslintcache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# External reference repositories
+references/

@@ -1,0 +1,13 @@
+policy:
+  name: fixed_depth
+  subquestion_count: 4
+  search_results_per_query: 5
+  pages_per_subquestion: 3
+  selected_chunks_per_subquestion: 6
+  max_evidence_per_subquestion: 5
+
+budget:
+  max_tokens: 50000
+  max_searches: 15
+  max_page_fetches: 40
+  max_elapsed_seconds: 300
